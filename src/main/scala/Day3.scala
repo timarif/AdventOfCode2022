@@ -4,7 +4,6 @@ object Day3 {
 
   def main(args: Array[String]): Unit = {
     val file = io.Source.fromFile("src/input/day3.txt").getLines().toSeq
-    //split files on " " and create an array of the Rock,Paper, Scissor Values
 
     def part1(a:Seq[String]) : Int = {
 
